@@ -123,6 +123,18 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\CB.Media\CB.Media.Brushes\CB.Media.Brushes.csproj">
+      <Project>{61a1fdd6-1482-4d6c-a276-51d4124ec53b}</Project>
+      <Name>CB.Media.Brushes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CB.Model\CB.Model.Common\CB.Model.Common.csproj">
+      <Project>{33a5df99-1312-4023-a6ef-eabb9848f5a6}</Project>
+      <Name>CB.Model.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CB.Xaml\CB.Xaml.ValueConverters\CB.Xaml.ValueConverters.csproj">
+      <Project>{3c46f9a4-7a8b-4588-872f-60b36e471fc5}</Project>
+      <Name>CB.Xaml.ValueConverters</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CB.Wpf.Elements\CB.Wpf.Elements.csproj">
       <Project>{49a228f3-5a12-42ac-93f1-5d10377ed89d}</Project>
       <Name>CB.Wpf.Elements</Name>

@@ -56,6 +56,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SuggestionPopup.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CB.Media\CB.Media.Brushes\CB.Media.Brushes.csproj">
+      <Project>{61a1fdd6-1482-4d6c-a276-51d4124ec53b}</Project>
+      <Name>CB.Media.Brushes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CB.Model\CB.Model.Common\CB.Model.Common.csproj">
+      <Project>{33a5df99-1312-4023-a6ef-eabb9848f5a6}</Project>
+      <Name>CB.Model.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CB.Xaml\CB.Xaml.AttachedProperties\CB.Xaml.AttachedProperties.csproj">
+      <Project>{1ccb7f4e-228a-4a8e-a211-a032c9c8767b}</Project>
+      <Name>CB.Xaml.AttachedProperties</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
